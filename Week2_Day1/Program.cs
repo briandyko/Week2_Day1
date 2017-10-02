@@ -41,17 +41,55 @@ namespace Week2_Day1
             //char[] firstLetter = { 'd', 'k', 'b', 'l' };
             //Console.WriteLine(firstLetter[0] + " " + firstLetter[1] + " " + firstLetter[2] + " " + firstLetter[3]);
 
-            int[] numbers = new int[4];
-            numbers [0] = 43;
-            numbers[1] = 12;
-            Console.WriteLine("Please enter a number");
-            numbers[2] = int.Parse(Console.ReadLine());
-            Console.WriteLine("Please enter a number");
-            numbers[3] = int.Parse(Console.ReadLine());
+            //int[] numbers = new int[4];
+            //numbers [0] = 43;
+            //numbers[1] = 12;
+            //Console.WriteLine("Please enter a number");
+            //numbers[2] = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Please enter a number");
+            //numbers[3] = int.Parse(Console.ReadLine());
 
-            numbers[0] = 30;
-    
-            Console.WriteLine(numbers[3]);
+            //numbers[0] = 30;
+
+            //string[] daysOfWeek = new string[7];
+            //daysOfWeek[0] = "Monday";
+            //daysOfWeek[1] = "Tuesday";
+            //daysOfWeek[2] = "Wednesday";
+            //daysOfWeek[3] = "Thursday";
+            //daysOfWeek[4] = "Friday";
+            //daysOfWeek[5] = "Saturday";
+            //daysOfWeek[6] = "Sunday";
+
+            
+
+            //int[] studentAges = new int[4];
+            //studentAges[0] = 33;
+            //studentAges[1] = 77;
+            //studentAges[2] = 30;
+            //studentAges[3] = 23;
+
+            //Console.WriteLine(daysOfWeek.Length);
+
+            //string[] lastName = { "d", "y", "k", "o" };
+            //Console.WriteLine(lastName.Length);
+
+            //string[] bandNames = new string[4];
+            //bandNames[0] = "The Beatles";
+            //bandNames[1] = "Ween";
+            //bandNames[2] = "A Tribe Called Quest";
+            //bandNames[3] = "The Magnetic Fields";
+            //Console.WriteLine(bandNames[2]);
+
+            string[] exampleStringArray = { "This", "is", "an", "array", "of", "words", "because", "I", "like", "words." };
+
+            //Console.WriteLine("This is the last index " + (exampleStringArray.Length - 1));
+
+            Console.WriteLine(exampleStringArray[exampleStringArray.Length - 1]);
+
+            //int index = exampleStringArray.Length;
+            //index = index - 2;
+
+            //Console.WriteLine(exampleStringArray[index]);
 
 
 
