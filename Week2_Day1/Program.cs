@@ -36,7 +36,7 @@ namespace Week2_Day1
             //Console.WriteLine(studentGPAs[5]);
             //Console.WriteLine(studentGPAs[6]);
             //Console.WriteLine(studentGPAs[7]);
-            
+
 
             //char[] firstLetter = { 'd', 'k', 'b', 'l' };
             //Console.WriteLine(firstLetter[0] + " " + firstLetter[1] + " " + firstLetter[2] + " " + firstLetter[3]);
@@ -60,7 +60,7 @@ namespace Week2_Day1
             //daysOfWeek[5] = "Saturday";
             //daysOfWeek[6] = "Sunday";
 
-            
+
 
             //int[] studentAges = new int[4];
             //studentAges[0] = 33;
@@ -80,16 +80,57 @@ namespace Week2_Day1
             //bandNames[3] = "The Magnetic Fields";
             //Console.WriteLine(bandNames[2]);
 
-            string[] exampleStringArray = { "This", "is", "an", "array", "of", "words", "because", "I", "like", "words." };
+            //string[] exampleStringArray = { "This", "is", "an", "array", "of", "words", "because", "I", "like", "words." };
 
-            //Console.WriteLine("This is the last index " + (exampleStringArray.Length - 1));
+            ////Console.WriteLine("This is the last index " + (exampleStringArray.Length - 1));
 
-            Console.WriteLine(exampleStringArray[exampleStringArray.Length - 1]);
+            //Console.WriteLine(exampleStringArray[exampleStringArray.Length - 1]);
 
             //int index = exampleStringArray.Length;
             //index = index - 2;
 
             //Console.WriteLine(exampleStringArray[index]);
+
+
+
+            //char[] birthMonths = { 'O', 'J', 'O', 'M' };
+            //Console.WriteLine(Array.IndexOf(birthMonths, 'J'));
+
+            //int[] numbers = { 2, 5, 9, 4, 3, 4, 6, 5 };
+            ////Console.WriteLine(Array.LastIndexOf(numbers, 4));
+
+            ////Array.Reverse(numbers);
+            ////Console.WriteLine(numbers[0]);
+
+            //Array.Sort(numbers);
+            //Console.WriteLine(numbers[0]);
+            //Console.WriteLine(numbers[numbers.Length - 1]);
+
+            string[] firstNames = { "Bob", "Sue", "Lily", "Derrick", "Clara" };
+            Console.WriteLine(Array.IndexOf(firstNames, "Lily"));
+
+            int[] luckyNumbers = { 5, 4, 2, 7, 8, 4, 2, 7, 4, 5, 8 };
+            Console.WriteLine(Array.LastIndexOf(luckyNumbers, 5));
+
+            char[] alphaBets = { 'a', 'c', 'd', 'i', 'u', 'o' };
+            Console.WriteLine(alphaBets[0]);
+            Array.Reverse(alphaBets);
+            Console.WriteLine(alphaBets[0]);
+
+            string[] moreNames = { "Bob", "Clarence", "Lala", "Leslie", "Brian", "Phil" };
+            Array.Sort(moreNames);
+            Console.WriteLine(moreNames[0] + " " + moreNames[moreNames.Length - 1]);
+
+            int[] favNumbers = { 1, 6, 8, 2, 5, 11, 65, 89, 32, 12 };
+            Array.Sort(favNumbers);
+            Console.WriteLine(favNumbers[0] + " " + favNumbers[favNumbers.Length - 1]);
+
+
+
+
+
+
+
 
 
 
